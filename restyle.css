@@ -1,0 +1,135 @@
+@media (max-width:768px) {
+
+  /* -- 1.상단 GNB --*/
+  #main {
+    width: 100%;
+    height: 100%;
+  }
+  header {
+    width: 100%;
+  }
+  .logo {
+    width: 25%;
+  }
+  .top-menu li {
+    margin-right: 10px;
+  }
+  .top-menu2 {
+    right: 10px;
+  }
+  /* -- 1.상단 GNB --*/
+
+  /* -- 2.좌측 GNB --*/
+  section {
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #F3F4F8;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .downMenu {
+    margin-bottom: 60px;
+  }
+  .linkMenu {
+    width: 300px;
+    margin-bottom: 30px;
+  }
+
+  #article {
+    flex-wrap: wrap;
+  }
+  #article > ul {
+    width: 200px;
+    margin-bottom: 5px;
+  }
+  #article > ul li:nth-child(1) {
+    width: 100%;
+  }
+
+  #article2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  #art2_1 {
+    width: 96%;
+    margin-bottom: 5px;
+  }
+  #art2_2 {
+    width: 98%;
+  }
+
+  #article3 {
+    height: 110px;
+  }
+  #article3_2 {
+    height: 100px;
+    background-color: #fff;
+    flex-wrap: wrap;
+  }
+  .art3bot {
+    width: 96%;
+    height: 50px;
+    margin-left: 25px;
+  } 
+
+  .art3bot > div:nth-child(2) {
+    margin-left: 25px;
+  }
+  .art3bot > div:nth-child(3) {
+    margin-left: 25px;
+  }
+  .art3bot > span {
+    margin-left: 20px;
+  }
+
+  #article4 {
+    width: 97%;
+    font-size: 5px;
+    margin-top: 70px;
+  }
+  #art4_top > ul {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 50px;
+    margin-left: 20px;
+  }
+  #art4_top ul li {
+    width: 70%;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0 5px;
+  }
+}
+
+
+@media (max-width:1200px) { 
+  #nav1 {
+    display: none;
+    margin-top: 10px;
+  }
+  #nav1.act {
+    display: block;
+  }
+
+  #ham {
+    width: 30px;
+    height: 70px;
+    position: relative;
+    margin-left: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #ham img {
+    width: 15px;
+    height: 15px;
+  }
+  #article > ul li:nth-child(1) {
+    width: 190px;
+  }
+
+}
